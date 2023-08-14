@@ -16,6 +16,7 @@ body {
 #header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: -30%;
 }
 
 .header-link {
@@ -142,4 +143,55 @@ h3 {
     display: flex;
     justify-content: flex-end;
     margin-right: -500px;
+}
+
+.fourth-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    width: 75%;
+    height: 50%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourth-p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.button-fourth-div {
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    border: 3px solid white;
+    border-radius: 10px;
 }

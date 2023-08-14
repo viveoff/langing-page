@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
 
 .first-section {
     background-color: #1F2937;
-
 }
 
 #header-logo {
@@ -23,4 +21,40 @@ body {
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left,.navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;   
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left,.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

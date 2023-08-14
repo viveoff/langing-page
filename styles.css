@@ -87,3 +87,31 @@ img {
     border: 1px #3882F6;
     border-radius: 10px;
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+}
+
+.row-of-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.box-blue {
+    border: 3px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+}
